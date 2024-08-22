@@ -1,0 +1,49 @@
+
+:root {
+    --primary-color: #ff422d; 
+    --secondary-color: #2c2e35; 
+    --body-bg-color: #ececed; 
+}
+
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--secondary-color);
+    margin: 0 20px; 
+}
+
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:disabled, a[disabled] {
+    pointer-events: none; 
+    cursor: default; 
+    color: #999; 
+    text-decoration: none; 
+}
+
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li, ol li {
+    padding: 0;
+    margin: 0;
+}
