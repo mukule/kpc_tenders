@@ -39,23 +39,23 @@
         <form action="<?= base_url('/register') ?>" method="post">
             <?= csrf_field() ?>
             <div class="form-group mb-3">
-                <label for="username">Username:</label>
+              
                 <input type="text" name="username" id="username" placeholder="Enter username" class="form-control" value="<?= esc($data['username'] ?? '') ?>" required>
             </div>
             <div class="form-group mb-3">
-                <label for="email">Email:</label>
+                
                 <input type="email" name="email" id="email" placeholder="Enter email" class="form-control" value="<?= esc($data['email'] ?? '') ?>" required>
             </div>
             <div class="form-group mb-3">
-                <label for="full_name">Full Name:</label>
+               
                 <input type="text" name="full_name" id="full_name" placeholder="Enter full name" class="form-control" value="<?= esc($data['full_name'] ?? '') ?>" required>
             </div>
             <div class="form-group mb-3">
-                <label for="password">Password:</label>
+               
                 <input type="password" name="password" id="password" placeholder="Enter password" class="form-control" required>
             </div>
             <div class="form-group mb-3">
-                <label for="confirm_password">Confirm Password:</label>
+                
                 <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm password" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-primary mt-3">Register</button>

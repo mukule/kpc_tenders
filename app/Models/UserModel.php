@@ -20,7 +20,6 @@ class UserModel extends Model
         'username' => 'required|is_unique[users.username]',
         'email' => 'required|valid_email|is_unique[users.email]',
         'password' => 'required|min_length[8]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).+$/]|differs[username]',
-        'confirm_password' => 'required|matches[password]',
         'full_name' => 'required'
     ];
 
@@ -39,10 +38,6 @@ class UserModel extends Model
             'min_length' => 'Password must be at least 8 characters long.',
             'regex_match' => 'Password must include at least one uppercase letter, one lowercase letter, one special character, and be at least 8 characters long.',
             'differs' => 'Password must not be similar to username'
-        ],
-        'confirm_password' => [
-            'required' => 'Please confirm your password.',
-            'matches' => 'Passwords do not match.'
         ],
         'full_name' => [
             'required' => 'Full name is required.'

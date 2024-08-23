@@ -1,0 +1,673 @@
+INFO - 2024-08-23 07:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 07:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:13:39 --> Register method entered.
+INFO - 2024-08-23 08:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:14:15 --> Register method entered.
+INFO - 2024-08-23 08:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:16:01 --> Register method entered.
+INFO - 2024-08-23 08:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:26:45 --> Register method entered.
+INFO - 2024-08-23 08:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:30:21 --> Register method entered.
+INFO - 2024-08-23 08:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:33:03 --> Register method entered.
+INFO - 2024-08-23 08:33:03 --> Initial load of register page.
+INFO - 2024-08-23 08:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 08:39:21 --> Register method entered.
+INFO - 2024-08-23 08:39:21 --> Initial load of register page.
+INFO - 2024-08-23 08:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:13:20 --> Register method entered.
+INFO - 2024-08-23 09:13:20 --> Initial load of register page.
+INFO - 2024-08-23 09:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:13:54 --> Register method entered.
+INFO - 2024-08-23 09:13:54 --> Initial load of register page.
+INFO - 2024-08-23 09:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:16:05 --> Register method entered.
+INFO - 2024-08-23 09:16:05 --> Initial load of register page.
+INFO - 2024-08-23 09:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:16:54 --> Register method entered.
+INFO - 2024-08-23 09:16:54 --> Initial load of register page.
+INFO - 2024-08-23 09:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:16:58 --> Register method entered.
+INFO - 2024-08-23 09:16:58 --> Initial load of register page.
+INFO - 2024-08-23 09:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:17:32 --> Register method entered.
+INFO - 2024-08-23 09:17:32 --> Initial load of register page.
+INFO - 2024-08-23 09:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:19:11 --> Register method entered.
+INFO - 2024-08-23 09:19:11 --> Initial load of register page.
+INFO - 2024-08-23 09:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:21:46 --> Register method entered.
+INFO - 2024-08-23 09:21:46 --> Initial load of register page.
+INFO - 2024-08-23 09:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:32:34 --> Register method entered.
+INFO - 2024-08-23 09:32:34 --> Initial load of register page.
+INFO - 2024-08-23 09:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:34:59 --> Register method entered.
+INFO - 2024-08-23 09:34:59 --> Initial load of register page.
+INFO - 2024-08-23 09:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:39:24 --> Register method entered.
+INFO - 2024-08-23 09:39:24 --> Request Method: POST
+INFO - 2024-08-23 09:39:24 --> Initial load of register page.
+INFO - 2024-08-23 09:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:42:31 --> Register method entered.
+INFO - 2024-08-23 09:42:31 --> Request Method: POST
+INFO - 2024-08-23 09:42:31 --> Initial load of register page.
+INFO - 2024-08-23 09:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:43:31 --> Register method entered.
+INFO - 2024-08-23 09:43:31 --> Request Method: GET
+INFO - 2024-08-23 09:43:31 --> Initial load of register page.
+INFO - 2024-08-23 09:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:43:42 --> Register method entered.
+INFO - 2024-08-23 09:43:42 --> Request Method: GET
+INFO - 2024-08-23 09:43:42 --> Initial load of register page.
+INFO - 2024-08-23 09:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:44:46 --> Register method entered.
+INFO - 2024-08-23 09:44:46 --> Request Method: POST
+INFO - 2024-08-23 09:44:46 --> Initial load of register page.
+INFO - 2024-08-23 09:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:46:29 --> Register method entered.
+INFO - 2024-08-23 09:46:29 --> Request Method: POST
+INFO - 2024-08-23 09:46:29 --> Form submission detected.
+INFO - 2024-08-23 09:46:29 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => NELSON
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => SSS
+    [confirm_password] => DDDD
+)
+
+INFO - 2024-08-23 09:46:30 --> Validation failed.
+INFO - 2024-08-23 09:46:30 --> Validation errors: Array
+(
+    [password] => The password field must be at least 8 characters in length.
+    [confirm_password] => The confirm_password field does not match the password field.
+)
+
+INFO - 2024-08-23 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:53:41 --> Register method entered.
+INFO - 2024-08-23 09:53:41 --> Request Method: POST
+INFO - 2024-08-23 09:53:41 --> Form submission detected.
+INFO - 2024-08-23 09:53:41 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => NELSON
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Nelson
+    [confirm_password] => Nelson
+)
+
+INFO - 2024-08-23 09:53:41 --> Validation failed.
+INFO - 2024-08-23 09:53:41 --> Validation errors: Array
+(
+    [password] => The password field must be at least 8 characters in length.
+)
+
+INFO - 2024-08-23 09:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:54:17 --> Register method entered.
+INFO - 2024-08-23 09:54:17 --> Request Method: POST
+INFO - 2024-08-23 09:54:17 --> Form submission detected.
+INFO - 2024-08-23 09:54:17 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Nelsonmasibo
+    [confirm_password] => Nelsonmasibo
+)
+
+INFO - 2024-08-23 09:54:17 --> Validation failed.
+INFO - 2024-08-23 09:54:17 --> Validation errors: Array
+(
+    [password] => Password must contain at least one uppercase letter, one lowercase letter, and one special character.
+)
+
+INFO - 2024-08-23 09:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:54:36 --> Register method entered.
+INFO - 2024-08-23 09:54:36 --> Request Method: POST
+INFO - 2024-08-23 09:54:36 --> Form submission detected.
+INFO - 2024-08-23 09:54:36 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 09:54:36 --> Validation passed.
+INFO - 2024-08-23 09:54:36 --> User registration failed.
+INFO - 2024-08-23 09:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:54:36 --> Register method entered.
+INFO - 2024-08-23 09:54:36 --> Request Method: GET
+INFO - 2024-08-23 09:54:36 --> Initial load of register page.
+INFO - 2024-08-23 09:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:55:00 --> Register method entered.
+INFO - 2024-08-23 09:55:00 --> Request Method: POST
+INFO - 2024-08-23 09:55:00 --> Form submission detected.
+INFO - 2024-08-23 09:55:00 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 09:55:00 --> Validation passed.
+INFO - 2024-08-23 09:55:00 --> User registration failed.
+INFO - 2024-08-23 09:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 09:55:00 --> Register method entered.
+INFO - 2024-08-23 09:55:00 --> Request Method: GET
+INFO - 2024-08-23 09:55:00 --> Initial load of register page.
+INFO - 2024-08-23 09:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:02:10 --> Register method entered.
+INFO - 2024-08-23 10:02:10 --> Request Method: POST
+INFO - 2024-08-23 10:02:10 --> Form submission detected.
+INFO - 2024-08-23 10:02:10 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => nelsn
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => nelson
+    [confirm_password] => masibo
+)
+
+INFO - 2024-08-23 10:02:10 --> Validation failed.
+INFO - 2024-08-23 10:02:10 --> Validation errors: Array
+(
+    [password] => The password field must be at least 8 characters in length.
+    [confirm_password] => The confirm_password field does not match the password field.
+)
+
+INFO - 2024-08-23 10:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:02:35 --> Register method entered.
+INFO - 2024-08-23 10:02:35 --> Request Method: POST
+INFO - 2024-08-23 10:02:35 --> Form submission detected.
+INFO - 2024-08-23 10:02:35 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => nelsn
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 10:02:35 --> Validation passed.
+INFO - 2024-08-23 10:02:36 --> User registration failed.
+INFO - 2024-08-23 10:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:02:36 --> Register method entered.
+INFO - 2024-08-23 10:02:36 --> Request Method: GET
+INFO - 2024-08-23 10:02:36 --> Initial load of register page.
+INFO - 2024-08-23 10:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:03:47 --> Register method entered.
+INFO - 2024-08-23 10:03:47 --> Request Method: POST
+INFO - 2024-08-23 10:03:47 --> Form submission detected.
+INFO - 2024-08-23 10:03:47 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 10:03:47 --> Validation passed.
+ERROR - 2024-08-23 10:03:47 --> User registration failed: Array
+(
+    [confirm_password] => Please confirm your password.
+)
+
+INFO - 2024-08-23 10:03:47 --> User registration failed.
+INFO - 2024-08-23 10:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:03:47 --> Register method entered.
+INFO - 2024-08-23 10:03:47 --> Request Method: GET
+INFO - 2024-08-23 10:03:47 --> Initial load of register page.
+INFO - 2024-08-23 10:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:42:27 --> Register method entered.
+INFO - 2024-08-23 10:42:27 --> Request Method: GET
+INFO - 2024-08-23 10:42:27 --> Initial load of register page.
+INFO - 2024-08-23 10:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:43:35 --> Register method entered.
+INFO - 2024-08-23 10:43:35 --> Request Method: POST
+INFO - 2024-08-23 10:43:35 --> Initial load of register page.
+INFO - 2024-08-23 10:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:44:07 --> Register method entered.
+INFO - 2024-08-23 10:44:07 --> Request Method: POST
+INFO - 2024-08-23 10:44:07 --> Initial load of register page.
+INFO - 2024-08-23 10:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:45:23 --> Register method entered.
+INFO - 2024-08-23 10:45:23 --> Request Method: POST
+INFO - 2024-08-23 10:45:23 --> Initial load of register page.
+INFO - 2024-08-23 10:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:46:20 --> Register method entered.
+INFO - 2024-08-23 10:46:20 --> Request Method: POST
+INFO - 2024-08-23 10:46:20 --> Form submission detected.
+INFO - 2024-08-23 10:46:20 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 10:46:20 --> Validation passed.
+CRITICAL - 2024-08-23 10:46:20 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: register]
+in APPPATH\Models\UserModel.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\auth\\app\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\AuthController.php(114): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 10:50:15 --> Register method entered.
+INFO - 2024-08-23 10:50:15 --> Request Method: GET
+INFO - 2024-08-23 10:50:15 --> Initial load of register page.
+INFO - 2024-08-23 10:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:50:32 --> Register method entered.
+INFO - 2024-08-23 10:50:32 --> Request Method: POST
+INFO - 2024-08-23 10:50:32 --> Form submission detected.
+INFO - 2024-08-23 10:50:32 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 10:50:32 --> Validation passed.
+ERROR - 2024-08-23 10:50:32 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\auth\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\auth\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\auth\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\auth\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\auth\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\auth\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\auth\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\auth\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\auth\app\Controllers\AuthController.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\auth\system\CodeIgniter.php(933): App\Controllers\AuthController->register()
+#9 C:\xampp\htdocs\auth\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\xampp\htdocs\auth\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\auth\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\auth\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\auth\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-08-23 10:50:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :full_name:, :access_lvl:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AuthController.php(117): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-23 10:50:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (\'Nelson\', \'nelsonmasibo6@gmail.com\', \'$2y$10$vqH9rTuo6J0ZhdJdO6FaQe6jo23Bfp5w/OdjAlgnzQOKovQGyseIa\', \'NELSON MUKULE MASIBO\', 1, \'2024-08-23 10:50:32\', \'2024-08-23 10:50:32\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (\'Nelson\', \'nelsonmasibo6@gmail.com\', \'$2y$10$vqH9rTuo6J0ZhdJdO6FaQe6jo23Bfp5w/OdjAlgnzQOKovQGyseIa\', \'NELSON MUKULE MASIBO\', 1, \'2024-08-23 10:50:32\', \'2024-08-23 10:50:32\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :full_name:, :access_lvl:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AuthController.php(117): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-23 10:50:32 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (\'Nelson\', \'nelsonmasibo6@gmail.com\', \'$2y$10$vqH9rTuo6J0ZhdJdO6FaQe6jo23Bfp5w/OdjAlgnzQOKovQGyseIa\', \'NELSON MUKULE MASIBO\', 1, \'2024-08-23 10:50:32\', \'2024-08-23 10:50:32\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (\'Nelson\', \'nelsonmasibo6@gmail.com\', \'$2y$10$vqH9rTuo6J0ZhdJdO6FaQe6jo23Bfp5w/OdjAlgnzQOKovQGyseIa\', \'NELSON MUKULE MASIBO\', 1, \'2024-08-23 10:50:32\', \'2024-08-23 10:50:32\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (\'Nelson\', \'nelsonmasibo6@gmail.com\', \'$2y$10$vqH9rTuo6J0ZhdJdO6FaQe6jo23Bfp5w/OdjAlgnzQOKovQGyseIa\', \'NELSON MUKULE MASIBO\', 1, \'2024-08-23 10:50:32\', \'2024-08-23 10:50:32\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `password`, `full_name`, `access_lvl`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :full_name:, :access_lvl:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AuthController.php(117): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 10:54:10 --> Register method entered.
+INFO - 2024-08-23 10:54:10 --> Request Method: GET
+INFO - 2024-08-23 10:54:10 --> Initial load of register page.
+INFO - 2024-08-23 10:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:57:05 --> Register method entered.
+INFO - 2024-08-23 10:57:05 --> Request Method: POST
+INFO - 2024-08-23 10:57:05 --> Form submission detected.
+INFO - 2024-08-23 10:57:05 --> POST data: Array
+(
+    [csrf_test_name] => 69bffba874df4511f026ea84fae614cf
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 10:57:05 --> Validation passed.
+INFO - 2024-08-23 10:57:05 --> User registration successful.
+INFO - 2024-08-23 10:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 10:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 11:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:04:32 --> Register method entered.
+INFO - 2024-08-23 12:04:32 --> Request Method: GET
+INFO - 2024-08-23 12:04:32 --> Initial load of register page.
+INFO - 2024-08-23 12:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:05:00 --> Register method entered.
+INFO - 2024-08-23 12:05:00 --> Request Method: GET
+INFO - 2024-08-23 12:05:00 --> Initial load of register page.
+INFO - 2024-08-23 12:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:05:33 --> Register method entered.
+INFO - 2024-08-23 12:05:33 --> Request Method: POST
+INFO - 2024-08-23 12:05:33 --> Form submission detected.
+INFO - 2024-08-23 12:05:33 --> POST data: Array
+(
+    [csrf_test_name] => 2fd0d26db4ec14a71d4aa495091e06ff
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 12:05:33 --> Validation failed.
+INFO - 2024-08-23 12:05:33 --> Validation errors: Array
+(
+    [username] => The username field must contain a unique value.
+    [email] => The email field must contain a unique value.
+)
+
+INFO - 2024-08-23 12:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:13:52 --> Register method entered.
+INFO - 2024-08-23 12:13:52 --> Request Method: POST
+INFO - 2024-08-23 12:13:52 --> Form submission detected.
+INFO - 2024-08-23 12:13:52 --> POST data: Array
+(
+    [csrf_test_name] => 2fd0d26db4ec14a71d4aa495091e06ff
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => nEILAH@1
+    [confirm_password] => nEILAH@1
+)
+
+INFO - 2024-08-23 12:13:52 --> Validation failed.
+INFO - 2024-08-23 12:13:52 --> Validation errors: Array
+(
+    [username] => This username is already taken.
+    [email] => This email is already registered.
+)
+
+INFO - 2024-08-23 12:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:16:03 --> Register method entered.
+INFO - 2024-08-23 12:16:03 --> Request Method: POST
+INFO - 2024-08-23 12:16:03 --> Form submission detected.
+INFO - 2024-08-23 12:16:03 --> POST data: Array
+(
+    [csrf_test_name] => 2fd0d26db4ec14a71d4aa495091e06ff
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 12:16:03 --> Validation failed.
+INFO - 2024-08-23 12:16:03 --> Validation errors: Array
+(
+    [username] => This username is already taken.
+    [email] => This email is already registered.
+)
+
+INFO - 2024-08-23 12:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:16:12 --> Register method entered.
+INFO - 2024-08-23 12:16:12 --> Request Method: GET
+INFO - 2024-08-23 12:16:12 --> Initial load of register page.
+INFO - 2024-08-23 12:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:16:14 --> Register method entered.
+INFO - 2024-08-23 12:16:14 --> Request Method: GET
+INFO - 2024-08-23 12:16:14 --> Initial load of register page.
+INFO - 2024-08-23 12:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:16:31 --> Register method entered.
+INFO - 2024-08-23 12:16:31 --> Request Method: POST
+INFO - 2024-08-23 12:16:31 --> Form submission detected.
+INFO - 2024-08-23 12:16:31 --> POST data: Array
+(
+    [csrf_test_name] => 2fd0d26db4ec14a71d4aa495091e06ff
+    [username] => Nelson
+    [email] => nelsonmasibo6@gmail.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => neilah
+)
+
+INFO - 2024-08-23 12:16:31 --> Validation failed.
+INFO - 2024-08-23 12:16:31 --> Validation errors: Array
+(
+    [username] => This username is already taken.
+    [email] => This email is already registered.
+)
+
+INFO - 2024-08-23 12:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:17:28 --> Register method entered.
+INFO - 2024-08-23 12:17:28 --> Request Method: GET
+INFO - 2024-08-23 12:17:28 --> Initial load of register page.
+INFO - 2024-08-23 12:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:18:39 --> Register method entered.
+INFO - 2024-08-23 12:18:39 --> Request Method: GET
+INFO - 2024-08-23 12:18:39 --> Initial load of register page.
+INFO - 2024-08-23 12:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:19:08 --> Register method entered.
+INFO - 2024-08-23 12:19:08 --> Request Method: POST
+INFO - 2024-08-23 12:19:08 --> Form submission detected.
+INFO - 2024-08-23 12:19:08 --> POST data: Array
+(
+    [csrf_test_name] => 2fd0d26db4ec14a71d4aa495091e06ff
+    [username] => Masibo
+    [email] => nelson.masibo@kenyawebsolutions.com
+    [full_name] => NELSON MUKULE MASIBO
+    [password] => Neilah@1
+    [confirm_password] => Neilah@1
+)
+
+INFO - 2024-08-23 12:19:08 --> Validation passed.
+INFO - 2024-08-23 12:19:08 --> User registration successful.
+INFO - 2024-08-23 12:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:20:22 --> Register method entered.
+INFO - 2024-08-23 12:20:22 --> Request Method: GET
+INFO - 2024-08-23 12:20:22 --> Initial load of register page.
+INFO - 2024-08-23 12:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 12:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 12:56:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts.php"
+[Method: GET, Route: home]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pages/home', [], true)
+ 4 APPPATH\Controllers\Home.php(13): view('pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 13:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 13:00:21 --> ErrorException: Undefined variable $username
+[Method: GET, Route: home]
+in APPPATH\Views\includes\header.php on line 23.
+ 1 APPPATH\Views\includes\header.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\auth\\app\\Views\\includes\\header.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\auth\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('includes/header', null, true)
+ 5 APPPATH\Views\layout.php(13): CodeIgniter\View\View->include('includes/header')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\auth\\app\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 9 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pages/home', [], true)
+10 APPPATH\Controllers\Home.php(13): view('pages/home', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 13:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 13:01:58 --> ErrorException: Undefined variable $username
+[Method: GET, Route: home]
+in APPPATH\Views\includes\header.php on line 23.
+ 1 APPPATH\Views\includes\header.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\auth\\app\\Views\\includes\\header.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\auth\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('includes/header', null, true)
+ 5 APPPATH\Views\layout.php(13): CodeIgniter\View\View->include('includes/header')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\auth\\app\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 9 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pages/home', [], true)
+10 APPPATH\Controllers\Home.php(13): view('pages/home', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 13:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-23 13:02:04 --> ErrorException: Undefined variable $username
+[Method: GET, Route: home]
+in APPPATH\Views\includes\header.php on line 23.
+ 1 APPPATH\Views\includes\header.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\auth\\app\\Views\\includes\\header.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\auth\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('includes/header', null, true)
+ 5 APPPATH\Views\layout.php(13): CodeIgniter\View\View->include('includes/header')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\auth\\app\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 9 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pages/home', [], true)
+10 APPPATH\Controllers\Home.php(13): view('pages/home', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-23 13:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-23 13:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

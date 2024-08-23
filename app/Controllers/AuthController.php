@@ -10,7 +10,7 @@ class AuthController extends BaseController
     public function login()
     {
         // Check if the form is submitted
-        if ($this->request->getMethod() === 'post') {
+        if ($this->request->getMethod() === 'POST') {
             // Validate the form inputs
             $validation = \Config\Services::validation();
             $validation->setRules([
@@ -46,7 +46,7 @@ class AuthController extends BaseController
                 ]);
 
                 // Redirect to the dashboard or home page
-                return redirect()->to('/dashboard');
+                return redirect()->to('/home');
             } else {
                 // If login fails, show an error message
                 session()->setFlashdata('error', 'Invalid username or password');
@@ -60,40 +60,60 @@ class AuthController extends BaseController
 
     
     public function register()
-{
-    $validation = \Config\Services::validation();
+    {
+        
+        $method = $this->request->getMethod();
+       
+        if ($method === 'POST') {
+           
+            $userModel = new \App\Models\UserModel();
     
-    // Check if the form is submitted
-    if ($this->request->getMethod() === 'post') {
-        $rules = [
-            'username' => 'required|is_unique[users.username]',
-            'email' => 'required|valid_email|is_unique[users.email]',
-            'password' => 'required|min_length[8]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).+$/]|differs[username]',
-            'confirm_password' => 'required|matches[password]',
-            'full_name' => 'required'
-        ];
-
-        if (!$this->validate($rules)) {
-            return view('auth/register', [
-                'validation' => $validation,
-                'data' => $this->request->getPost()
-            ]);
+            $rules = $userModel->getValidationRules();
+            $messages = $userModel->getValidationMessages();
+    
+            if (!$this->validate($rules, $messages)) {
+                return view('auth/register', [
+                    'validation' => $this->validator,
+                    'data' => $this->request->getPost()
+                ]);
+            }
+    
+          
+            // Prepare user data for insertion
+            $userData = [
+                'username' => $this->request->getPost('username'),
+                'email' => $this->request->getPost('email'),
+                'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
+                'full_name' => $this->request->getPost('full_name'),
+                'access_lvl' => 1 
+            ];
+    
+           
+            if ($userModel->insert($userData)) {
+               
+    
+                // Set success flash message
+                session()->setFlashdata('success', 'Registration successful. You can now log in.');
+    
+                // Redirect to login page
+                return redirect()->to('/login');
+            } else {
+                // Capture and log model errors
+               
+                session()->setFlashdata('error', 'Registration failed. Please try again.');
+    
+                // Redirect back with input
+                return redirect()->back()->withInput();
+            }
         }
-
-        // Continue with saving the user...
+        return view('auth/register', [
+            'data' => [] 
+        ]);
     }
-
-    // Load the register view
-    return view('auth/register', [
-        'data' => [] // Initial values if any
-    ]);
-}
-
-
+    
     
     public function logout()
     {
-        // Destroy the session and redirect to the login page
         session()->destroy();
         return redirect()->to('/login');
     }

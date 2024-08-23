@@ -1,18 +1,60 @@
-
 :root {
-    --primary-color: #ff422d; 
-    --secondary-color: #2c2e35; 
-    --body-bg-color: #ececed; 
+    --primary-color: #ff422d;
+    --secondary-color: #2c2e35;
+    --body-bg-color: #ececed;
 }
-
 
 body {
     background-color: var(--body-bg-color);
     color: var(--secondary-color);
-    margin: 0 20px; 
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    display: flex;
+    flex-direction: column; /* Make body a flex container */
 }
 
+header {
+    width: 100%; /* Ensure header takes full width */
+    background-color: var(--primary-color); /* Set background color */
+}
 
+.navbar {
+    width: 100%; /* Ensure navbar takes full width */
+    padding: 0rem; /* Adjust padding to increase height */
+    margin: 0; /* Remove default margin */
+    background-color: var(--primary-color); /* Set background color */
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem; /* Adjust brand font size if needed */
+}
+
+.navbar .nav-link {
+    line-height: 2rem; /* Adjust line height for vertical centering */
+}
+
+/* Style the dropdown */
+.dropdown-menu {
+    min-width: 10rem; /* Adjust dropdown width if necessary */
+}
+
+/* Ensure the navbar items are centered vertically */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative; /* Ensure it's positioned relative to the body */
+    margin-top: auto; /* Push footer to the bottom of the page */
+}
+
+/* Button styles */
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -23,20 +65,20 @@ body {
     border-color: var(--secondary-color);
 }
 
-
+/* Link styles */
 a {
     color: var(--secondary-color);
     text-decoration: none;
 }
 
 a:disabled, a[disabled] {
-    pointer-events: none; 
-    cursor: default; 
-    color: #999; 
-    text-decoration: none; 
+    pointer-events: none;
+    cursor: default;
+    color: #999;
+    text-decoration: none;
 }
 
-
+/* List styles */
 ul, ol {
     list-style: none;
     padding: 0;
