@@ -22,7 +22,7 @@
             
             <!-- Vacancy Type Card -->
             <div class="col-md-3 mb-4">
-                <a href="<?= base_url('/vacancy-types') ?>" class="text-decoration-none">
+                <a href="<?= base_url('/job_types') ?>" class="text-decoration-none">
                     <div class="card">
                         <div class="card-body text-center">
                             <i class="fas fa-tags fa-3x mb-3"></i>

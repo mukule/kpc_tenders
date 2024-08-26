@@ -27,112 +27,109 @@ class VacancyFunctions extends BaseController
         return view('careers/job_functions.php', $data);
     }
 
-    // Create Vacancy Function
-    public function create()
+    
+    public function job_functions_create()
     {
-        // Load validation library
         $validation = \Config\Services::validation();
-
+    
         if ($this->request->getMethod() === 'POST') {
-            // Define validation rules
             $rules = [
                 'name' => 'required|min_length[3]|max_length[255]',
             ];
-
-            // Validate input
+    
             if (! $this->validate($rules)) {
-                // Get validation errors
                 $data['validation'] = $this->validator;
-                $data['title'] = 'Create Vacancy Function'; // Set title for the view
-                return view('vacancy_functions/create', $data);
+                $data['title'] = 'Create Job Function'; 
+                return view('careers/job_functions_create', $data);
             }
-
-            // Retrieve the logged-in user's ID
+    
             $userID = session()->get('user_id');
-
-            // Check if user ID is set
+    
             if (!$userID) {
-                // Handle the case where user ID is not available
                 return redirect()->to('/login')->with('error', 'User not logged in.');
             }
-
-            // Prepare data for insertion
+    
             $data = [
                 'name'        => $this->request->getPost('name'),
-                'created_by'  => $userID, // Set the creator ID dynamically
-                'updated_by'  => $userID  // Set the updater ID dynamically
+                'created_by'  => $userID, 
+                'updated_by'  => $userID 
             ];
-
-            // Insert data into the database
+    
+            
             $this->vacancyFunctionModel->insert($data);
-
-            // Redirect to the list of vacancy functions
-            return redirect()->to('/vacancy_functions');
+    
+            
+            session()->setFlashdata('success', 'Job Function created successfully.');
+    
+           
+            return redirect()->to('/job_functions');
         }
+    
+        $data['title'] = 'Create Job Function';
+        return view('careers/job_functions_create', $data);
+    }
+    
 
-        // Set title for the view
-        $data['title'] = 'Create Vacancy Function';
+    
+    public function job_functions_edit($id)
+{
+    
+    $vacancyFunction = $this->vacancyFunctionModel->find($id);
 
-        // Display the creation form
-        return view('vacancy_functions/create', $data);
+    
+    if (!$vacancyFunction) {
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Vacancy function not found');
     }
 
-    // Edit Vacancy Function
-    public function edit($id)
-    {
-        // Retrieve the vacancy function by ID
-        $vacancyFunction = $this->vacancyFunctionModel->find($id);
+    
+    $validation = \Config\Services::validation();
 
-        // Check if the vacancy function exists
-        if (!$vacancyFunction) {
-            // Handle the case where the vacancy function does not exist
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Vacancy function not found');
+    
+    if ($this->request->getMethod() === 'POST') {
+        
+        $rules = [
+            'name' => 'required|min_length[3]|max_length[255]',
+        ];
+
+       
+        if (! $this->validate($rules)) {
+            
+            $data['validation'] = $this->validator;
+            $data['vacancy_function'] = $vacancyFunction;
+            $data['title'] = 'Edit Vacancy Function';
+            return view('careers/job_functions_edit', $data);
         }
 
-        // Load validation library
-        $validation = \Config\Services::validation();
+        
+        $userID = session()->get('user_id'); 
 
-        if ($this->request->getMethod() === 'POST') {
-            // Define validation rules
-            $rules = [
-                'name' => 'required|min_length[3]|max_length[255]',
-            ];
+        
+        $data = [
+            'name'        => $this->request->getPost('name'),
+            'updated_by'  => $userID 
+        ];
 
-            // Validate input
-            if (! $this->validate($rules)) {
-                // Get validation errors
-                $data['validation'] = $this->validator;
-                $data['vacancy_function'] = $vacancyFunction;
-                $data['title'] = 'Edit Vacancy Function'; // Set the title
-                return view('vacancy_functions/edit', $data);
-            }
+        
+        $this->vacancyFunctionModel->update($id, $data);
 
-            // Retrieve the logged-in user's ID
-            $userID = session()->get('user_id'); // Adjust based on your session data
+        
+        session()->setFlashdata('success', 'Job Function updated successfully.');
 
-            // Prepare data for update
-            $data = [
-                'name'        => $this->request->getPost('name'),
-                'updated_by'  => $userID // Set the updater ID dynamically
-            ];
-
-            // Update the vacancy function in the database
-            $this->vacancyFunctionModel->update($id, $data);
-
-            // Redirect to the list of vacancy functions
-            return redirect()->to('/vacancy_functions');
-        }
-
-        // Pass the vacancy function data and title to the view
-        $data['vacancy_function'] = $vacancyFunction;
-        $data['title'] = 'Edit Vacancy Function'; // Set the title
-        return view('vacancy_functions/edit', $data);
+       
+        return redirect()->to('/job_functions');
     }
 
-    // Delete Vacancy Function
-    public function delete($id)
+    
+    $data['vacancy_function'] = $vacancyFunction;
+    $data['title'] = 'Edit Vacancy Function';
+    return view('careers/job_functions_edit', $data);
+}
+
+
+    
+    public function delete_job_function($id)
     {
         $this->vacancyFunctionModel->delete($id);
-        return redirect()->to('/vacancy_functions');
+        return redirect()->to('/job_functions');
     }
 }

@@ -7,7 +7,7 @@ class VacancyTypeModel extends Model
     protected $table      = 'vac_type';
     protected $primaryKey = 'id';
 
-    protected $returnType     = 'array'; // Or 'object' if you prefer objects
+    protected $returnType     = 'array'; 
     protected $useSoftDeletes = false;
 
     protected $allowedFields = [
@@ -16,11 +16,11 @@ class VacancyTypeModel extends Model
         'updated_by'
     ];
 
-    // Dates are automatically formatted
+    
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
 
-    // Validation is not used
+    
     protected $skipValidation = true;
 }

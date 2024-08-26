@@ -2,32 +2,27 @@
 
 use CodeIgniter\Model;
 
-class VacancyModel extends Model
+class DocTypesModel extends Model
 {
-    protected $table      = 'vacancy';
+    protected $table      = 'doc_types';
     protected $primaryKey = 'id';
 
     protected $returnType     = 'array'; 
     protected $useSoftDeletes = false;
 
     protected $allowedFields = [
-        'title',
-        'ref',
-        'vac_function',
-        'open_date',
-        'close_date',
-        'min_educational_level',
-        'min_work_experience',
-        'vac_type',
+        'name',
         'created_by',
         'updated_by'
     ];
 
-    // Dates are automatically formatted
+    
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
 
     // Validation is not used
     protected $skipValidation = true;
+
+   
 }

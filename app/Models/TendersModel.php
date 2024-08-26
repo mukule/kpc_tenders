@@ -2,23 +2,24 @@
 
 use CodeIgniter\Model;
 
-class VacancyModel extends Model
+class TendersModel extends Model
 {
-    protected $table      = 'vacancy';
+    protected $table      = 'tenders';
     protected $primaryKey = 'id';
 
     protected $returnType     = 'array'; 
     protected $useSoftDeletes = false;
 
     protected $allowedFields = [
-        'title',
-        'ref',
-        'vac_function',
-        'open_date',
+        'name',
+        'ref_number',
+        'start_date',
         'close_date',
-        'min_educational_level',
-        'min_work_experience',
-        'vac_type',
+        'document_type',
+        'site_visit_details1',
+        'site_visit_details2',
+        'tender_file',
+        'eligibility',
         'created_by',
         'updated_by'
     ];
@@ -27,7 +28,4 @@ class VacancyModel extends Model
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
-
-    // Validation is not used
-    protected $skipValidation = true;
 }
