@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register | Tender & Career Management System</title>
-    <link rel="shortcut icon" href="<?= base_url('assets/images/logo.png'); ?>" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/9590b3c858.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="<?= base_url('assets/css/auth.css'); ?>">
-</head>
-<body class="d-flex justify-content-center align-items-center" style="height: 100vh; background-color: #f0f2f5;">
-    <div class="login-container">
-        <div class="header-section">
-            <img src="<?= base_url('assets/images/logo.png'); ?>" alt="Logo"> <!-- Update the src to your logo path -->
-            <h4>Careers & Tenders Management System</h4>
-        </div>
-        <hr>
-        <h3 class="text-center">REGISTER</h3>
+<?= $this->extend('layout'); ?>
 
+<?= $this->section('content'); ?>
+
+<div class="container p-3">
+    <h2>Create Staff</h2>
+    <hr>
+    <div class="content bg-white p-4 rounded shadow-sm mx-auto">
         <!-- Display success message -->
         <?php if (session()->getFlashdata('success')): ?>
             <div class="alert alert-success">
@@ -38,29 +26,51 @@
 
         <form action="<?= base_url('/register') ?>" method="post">
             <?= csrf_field() ?>
+            
             <div class="form-group mb-3">
-              
                 <input type="text" name="username" id="username" placeholder="Enter username" class="form-control" value="<?= esc($data['username'] ?? '') ?>" required>
             </div>
+            
             <div class="form-group mb-3">
-                
                 <input type="email" name="email" id="email" placeholder="Enter email" class="form-control" value="<?= esc($data['email'] ?? '') ?>" required>
             </div>
+            
             <div class="form-group mb-3">
-               
                 <input type="text" name="full_name" id="full_name" placeholder="Enter full name" class="form-control" value="<?= esc($data['full_name'] ?? '') ?>" required>
             </div>
+
             <div class="form-group mb-3">
-               
+                <select name="department_id" id="department_id" class="form-control" required>
+                    <option value="">Select a department</option>
+                    <?php foreach ($departments as $department): ?>
+                        <option value="<?= esc($department['id']) ?>" <?= (isset($data['department_id']) && $data['department_id'] == $department['id']) ? 'selected' : '' ?>>
+                            <?= esc($department['name']) ?>
+                        </option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <select name="access_lvl" id="access_lvl" class="form-control" required>
+                    <?php foreach ($access_levels as $level => $label): ?>
+                        <option value="<?= esc($level) ?>" <?= (isset($data['access_lvl']) && $data['access_lvl'] == $level) ? 'selected' : '' ?>>
+                            <?= esc($label) ?>
+                        </option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+            
+            <div class="form-group mb-3">
                 <input type="password" name="password" id="password" placeholder="Enter password" class="form-control" required>
             </div>
+            
             <div class="form-group mb-3">
-                
                 <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm password" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Register</button>
-            <a href="<?= base_url('/login') ?>" class="btn btn-link mt-3">Already have an account? Login</a>
+
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
         </form>
     </div>
-</body>
-</html>
+</div>
+
+<?= $this->endSection(); ?>

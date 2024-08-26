@@ -2,59 +2,69 @@
     --primary-color: #ff422d;
     --secondary-color: #2c2e35;
     --body-bg-color: #ececed;
+    --card-title-color: #ff422d;
+    /* Color for card titles */
+    --card-text-color: #666;
+    /* Color for card text */
+    --link-color: #ff422d;
+    /* Color for links */
+    --icon-color: #333;
+    /* Color for icons */
+    --table-header-bg: #000;
+    /* Background color for table headers */
+    --table-header-text: #fff;
+    /* Text color for table headers */
+    --table-row-hover-bg: #f8f9fa;
+    /* Background color for hovered table rows */
 }
 
 body {
     background-color: var(--body-bg-color);
     color: var(--secondary-color);
-    margin: 0; /* Remove default margin */
-    min-height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Make body a flex container */
+    flex-direction: column;
 }
 
 header {
-    width: 100%; /* Ensure header takes full width */
-    background-color: var(--primary-color); /* Set background color */
+    width: 100%;
+    background-color: var(--primary-color);
 }
 
 .navbar {
-    width: 100%; /* Ensure navbar takes full width */
-    padding: 0rem; /* Adjust padding to increase height */
-    margin: 0; /* Remove default margin */
-    background-color: var(--primary-color); /* Set background color */
+    width: 100%;
+    padding: 0rem;
+    margin: 0;
+    background-color: var(--primary-color);
 }
 
 .navbar .navbar-brand {
-    font-size: 1.5rem; /* Adjust brand font size if needed */
+    font-size: 1.5rem;
 }
 
 .navbar .nav-link {
-    line-height: 2rem; /* Adjust line height for vertical centering */
+    line-height: 2rem;
 }
 
-/* Style the dropdown */
 .dropdown-menu {
-    min-width: 10rem; /* Adjust dropdown width if necessary */
+    min-width: 10rem;
 }
 
-/* Ensure the navbar items are centered vertically */
 .navbar-nav {
     display: flex;
     align-items: center;
 }
 
-/* Footer styling */
 footer {
     background-color: var(--secondary-color);
     color: white;
     text-align: center;
     padding: 1rem;
-    position: relative; /* Ensure it's positioned relative to the body */
-    margin-top: auto; /* Push footer to the bottom of the page */
+    position: relative;
+    margin-top: auto;
 }
 
-/* Button styles */
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -65,27 +75,68 @@ footer {
     border-color: var(--secondary-color);
 }
 
-/* Link styles */
 a {
-    color: var(--secondary-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
-a:disabled, a[disabled] {
+a:disabled,
+a[disabled] {
     pointer-events: none;
     cursor: default;
     color: #999;
     text-decoration: none;
 }
 
-/* List styles */
-ul, ol {
+ul,
+ol {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-ul li, ol li {
+ul li,
+ol li {
     padding: 0;
     margin: 0;
+}
+
+/* Styles for content section */
+.content .card-title {
+    color: var(--card-title-color);
+}
+
+.content .card-text {
+    color: var(--card-text-color);
+}
+
+.content .card-body i {
+    color: var(--icon-color);
+}
+
+/* Table styling */
+table.table-hover {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+}
+
+table.table-hover th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-text);
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+table.table-hover td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+table.table-hover tbody tr:hover {
+    background-color: var(--table-row-hover-bg);
 }

@@ -31,7 +31,7 @@
                 <input type="password" name="password" id="password" placeholder="Enter Password" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-primary mt-3">Login</button>
-            <a href="<?= base_url('/register') ?>" class="btn btn-link mt-3">Register</a>
+            <a href="" class="btn btn-link mt-3">FORGET PASSWORD ? RESET</a>
         </form>
     </div>
 </body>
