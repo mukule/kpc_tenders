@@ -22,7 +22,7 @@
             
             <!-- Awarded Contracts Card -->
             <div class="col-md-3 mb-4">
-                <a href="<?= base_url('/awarded_contracts') ?>" class="text-decoration-none">
+                <a href="<?= base_url('/awarded_cons') ?>" class="text-decoration-none">
                     <div class="card">
                         <div class="card-body text-center">
                             <i class="fas fa-handshake fa-3x mb-3"></i>
@@ -35,7 +35,7 @@
             
             <!-- Procurement Plans Card -->
             <div class="col-md-3 mb-4">
-                <a href="<?= base_url('/procurement_plans') ?>" class="text-decoration-none">
+                <a href="<?= base_url('/proc_plans') ?>" class="text-decoration-none">
                     <div class="card">
                         <div class="card-body text-center">
                             <i class="fas fa-calendar-check fa-3x mb-3"></i>

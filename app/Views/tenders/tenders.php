@@ -21,18 +21,16 @@
                     <tr>
                         <th>#</th>
                         <th>Name</th>
-                        <th>Reference Number</th>
-                        <th>Start Date</th>
-                        <th>Close Date</th>
-                        <th>Document Type</th>
+                        <th>Ref Number</th>
+                        <th>Dates</th>
                         <th>Site Visit Details 1</th>
                         <th>Site Visit Details 2</th>
-                        <th>Tender File</th>
                         <th>Eligibility</th>
                         <th>Created At</th>
                         <th>Created By</th>
                         <th>Updated At</th>
                         <th>Updated By</th>
+                        <th>Documents</th> <!-- New column header -->
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -42,27 +40,9 @@
                         <td><?= esc($tender['id']); ?></td>
                         <td><?= esc($tender['name']); ?></td>
                         <td><?= esc($tender['ref_number']); ?></td>
-                        <td><?= esc($tender['start_date']); ?></td>
-                        <td><?= esc($tender['close_date']); ?></td>
-                        <td>
-                            <?php
-                            // Find the document type
-                            $docType = array_filter($doc_types, function($type) use ($tender) {
-                                return $type['id'] == $tender['document_type'];
-                            });
-                            $docType = array_shift($docType);
-                            echo esc($docType['name'] ?? 'N/A');
-                            ?>
-                        </td>
+                        <td><?= esc($tender['start_date']); ?> - <?= esc($tender['close_date']); ?></td>
                         <td><?= esc($tender['site_visit_details1']); ?></td>
                         <td><?= esc($tender['site_visit_details2']); ?></td>
-                        <td>
-                            <?php if ($tender['tender_file']): ?>
-                                <a href="<?= base_url('uploads/tenders/' . esc($tender['tender_file'])) ?>" target="_blank">View File</a>
-                            <?php else: ?>
-                                N/A
-                            <?php endif; ?>
-                        </td>
                         <td>
                             <?php
                             // Find the eligibility
@@ -96,11 +76,16 @@
                             ?>
                         </td>
                         <td>
-                            <a href="<?= base_url('tenders/edit/' . $tender['id']) ?>" class="btn btn-warning btn-sm">
-                                <i class="fas fa-edit"></i> Edit
+                            <a href="<?= base_url('tender_docs/' . $tender['id']) ?>" class="btn btn-info btn-sm">
+                                View Docs
                             </a>
-                            <a href="<?= base_url('tenders/delete/' . $tender['id']) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">
-                                <i class="fas fa-trash"></i> Delete
+                        </td>
+                        <td>
+                            <a href="<?= base_url('tenders/tenders_edit/' . $tender['id']) ?>" class="btn btn-warning btn-sm">
+                                 Edit
+                            </a>
+                            <a href="<?= base_url('tender_delete/' . $tender['id']) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">
+                                 Del
                             </a>
                         </td>
                     </tr>

@@ -74,7 +74,32 @@ $routes->get('/docs_delete/(:num)', 'DocTypes::docs_delete/$1');
 //Tenders
 $routes->get('/tender_uploads', 'Tenders::tenders');  
 $routes->get('tenders/tenders_create', 'Tenders::tenders_create');
-$routes->post('create', 'Tenders::create');
-$routes->get('edit/(:num)', 'Tenders::edit/$1'); 
-$routes->post('edit/(:num)', 'Tenders::edit/$1'); 
-$routes->get('delete/(:num)', 'Tenders::delete/$1'); 
+$routes->post('tenders/tenders_create', 'Tenders::tenders_create');
+$routes->get('tenders/tenders_edit/(:num)', 'Tenders::tenders_edit/$1'); 
+$routes->post('tenders/tenders_edit/(:num)', 'Tenders::tenders_edit/$1'); 
+$routes->get('tender_delete/(:num)', 'Tenders::tender_delete/$1'); 
+
+//documents
+$routes->get('tender_docs/(:num)', 'TenderDocumentsController::tender_docs/$1');
+$routes->get('/tenders/tender_docs_create/(:num)/(:num)', 'TenderDocumentsController::tender_docs_create/$1/$2');
+$routes->post('/tenders/tender_docs_create/(:num)/(:num)', 'TenderDocumentsController::tender_docs_create/$1/$2');
+$routes->get('/tenders/tender_doc/(:num)', 'TenderDocumentsController::tender_doc/$1');
+$routes->get('tenders/tender_docs_edit/(:num)', 'TenderDocumentsController::tender_docs_edit/$1');
+$routes->post('tenders/tender_docs_edit/(:num)', 'TenderDocumentsController::tender_docs_edit/$1');
+$routes->get('/tenders/tender_doc_delete/(:num)', 'TenderDocumentsController::tender_doc_delete/$1');
+
+//Awarded contracts
+$routes->get('/awarded_cons', 'AwardedContractsController::awarded_cons');
+$routes->get('/tenders/awarded_cons_create', 'AwardedContractsController::awarded_cons_create');
+$routes->post('/tenders/awarded_cons_create', 'AwardedContractsController::awarded_cons_create');
+$routes->get('/tenders/awarded_cons_edit/(:num)', 'AwardedContractsController::awarded_cons_edit/$1');
+$routes->post('/tenders/awarded_cons_edit/(:num)', 'AwardedContractsController::awarded_cons_edit/$1');
+$routes->get('/awarded_cons_delete/(:num)', 'AwardedContractsController::awarded_cons_delete/$1');
+
+//proc plans
+$routes->get('/proc_plans', 'ProcurementPlans::proc_plans');
+$routes->get('/tenders/proc_plans_create', 'ProcurementPlans::proc_plans_create');
+$routes->post('/tenders/proc_plans_create', 'ProcurementPlans::proc_plans_create');
+$routes->get('/tenders/proc_plans_edit/(:num)', 'ProcurementPlans::proc_plans_edit/$1');
+$routes->post('/tenders/proc_plans_edit/(:num)', 'ProcurementPlans::proc_plans_edit/$1');
+$routes->get('/proc_plans_delete/(:num)', 'ProcurementPlans::proc_plans_delete/$1');
